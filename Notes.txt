@@ -1,0 +1,12 @@
+NPM command lines
+
+npm install  - Install package globally. Global packages are usually for executable commands.
+npm start - starts a file server to start an application called 'lite server'. Watch for any code changes. 
+npm install -g typescript - to install Typescript
+=================================
+If you see multiple error  the we might need to add following json in tsconfig.json file
+"exclude": [
+    "node_modules",
+    "wwwroot",
+    "typings"
+  ]
